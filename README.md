@@ -1,6 +1,6 @@
 # **Find Indonesia Tourism - Machine Learning**
 
-Building models Natural Language Processing Sentiment Analysis with Tensorflow. Data collected from Google Maps Reviews.
+Natural Language Processing Sentiment Analysis model with Tensorflow. Data collected from Google Maps Reviews.
 
 ### Collect Dataset from Google Maps Reviews
 Collected 2800+ dataset, this dataset contain text and target (0 negative or 1 positive). [Dataset !](https://github.com/BangkitCapstoneFIT/ML-findindonesiatourism/blob/main/Book133333.xlsb.csv)
