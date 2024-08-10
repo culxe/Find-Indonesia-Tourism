@@ -15,7 +15,7 @@ with detail info dataset
 Before training the model, the text data undergoes several preprocessing steps:
 - Regular Expressions (Regex): Used to clean the text by removing unwanted characters, special symbols, and emojis that do not contribute to the sentiment.
 - Stopwords Removal: Commonly used words that do not add much meaning to the text (e.g., "is", "the", "and") are removed to reduce noise and improve model performance.
-- 
+
 processed data
 
 <img src="/img/4.processed-data.png" alt="Alt text" width="800"/>
