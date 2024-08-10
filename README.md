@@ -40,7 +40,7 @@ The preprocessed and embedded data is used to train a Convolutional Neural Netwo
 
 ## Model Evaluation and Prediction
 The model is evaluated on the test set, achieving an accuracy of 79% and a loss of 0.58. The model's prediction on a sample data results in a value of 0.99406624, indicating a strong positive sentiment.
-<img src="/img/6.model-acc.png" alt="Alt text" width="800"/> <img src="/img/7.model-loss.png" alt="Alt text" width="800"/>
+<img src="/img/6.model-acc.png" alt="Alt text" width="600"/> <img src="/img/7.model-loss.png" alt="Alt text" width="600"/>
 
 ### Predicted Result
 
