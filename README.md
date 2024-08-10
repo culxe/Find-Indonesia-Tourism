@@ -4,15 +4,18 @@ This project focuses on building a Natural Language Processing (NLP) sentiment a
 
 ## Collect Dataset from Google Maps Reviews
 The dataset consists of over 2800 Google Maps reviews related to various tourist destinations in Indonesia. These reviews are labeled with target values: 0 for negative sentiments and 1 for positive sentiments. The dataset can be accessed [here](https://github.com/BangkitCapstoneFIT/ML-findindonesiatourism/blob/main/Book133333.xlsb.csv)
+
 <img src="/img/3.info-dataset(2).png" alt="Alt text" width="800"/>
 
 with detail info dataset
+
 <img src="/img/2.info-dataset.png" alt="Alt text" width="800"/>
 
 ## Data Pre-Processing
 Before training the model, the text data undergoes several preprocessing steps:
 - Regular Expressions (Regex): Used to clean the text by removing unwanted characters, special symbols, and emojis that do not contribute to the sentiment.
 - Stopwords Removal: Commonly used words that do not add much meaning to the text (e.g., "is", "the", "and") are removed to reduce noise and improve model performance.
+- 
 <img src="/img/4.processed-data.png" alt="Alt text" width="800"/>
 
 ## Word Embedding
@@ -28,6 +31,7 @@ The preprocessed and embedded data is used to train a Convolutional Neural Netwo
 - Activation Function: ReLU (Rectified Linear Unit) is used for non-linear transformation, and - Sigmoid is used in the final output layer for binary classification.
 - Optimizer: Adam optimizer is used to minimize the loss function.
 - Loss Function: Binary Crossentropy is chosen as the loss function because this is a binary classification problem.
+- 
 <img src="/img/5.conf-model.png" alt="Alt text" width="800"/>
 
 
@@ -36,6 +40,7 @@ The model is evaluated on the test set, achieving an accuracy of 79% and a loss 
 <img src="/img/6.model-acc.png" alt="Alt text" width="800"/> <img src="/img/7.model-loss.png" alt="Alt text" width="800"/>
 
 predicted result
+
  <img src="/img/1.predict.png" alt="Alt text" width="800"/>
 
 ##  Deployment
