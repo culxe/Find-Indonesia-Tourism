@@ -33,7 +33,7 @@ The preprocessed and embedded data is used to train a Convolutional Neural Netwo
 - Activation Function: ReLU (Rectified Linear Unit) is used for non-linear transformation, and - Sigmoid is used in the final output layer for binary classification.
 - Optimizer: Adam optimizer is used to minimize the loss function.
 - Loss Function: Binary Crossentropy is chosen as the loss function because this is a binary classification problem.
-- 
+  
 <img src="/img/5.conf-model.png" alt="Alt text" width="800"/>
 
 
@@ -48,4 +48,4 @@ predicted result
 ##  Deployment
 The trained model is converted to TensorFlow Lite format for deployment on Android devices. This allows for on-device sentiment analysis, enabling users to quickly assess the sentiment of reviews directly on their mobile devices.
 
-For more detailed steps and implementation, you can refer to the [notebook](https://github.com/BangkitCapstoneFIT/ML-findindonesiatourism/blob/main/Analysis_Sentimen_Find_Indonesia_Tourism.ipynb)
+For more detailed steps and implementation, can refer to the [notebook](https://github.com/BangkitCapstoneFIT/ML-findindonesiatourism/blob/main/Analysis_Sentimen_Find_Indonesia_Tourism.ipynb)
