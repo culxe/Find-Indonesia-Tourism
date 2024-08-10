@@ -16,7 +16,7 @@ Before training the model, the text data undergoes several preprocessing steps:
 - Regular Expressions (Regex): Used to clean the text by removing unwanted characters, special symbols, and emojis that do not contribute to the sentiment.
 - Stopwords Removal: Commonly used words that do not add much meaning to the text (e.g., "is", "the", "and") are removed to reduce noise and improve model performance.
 
-processed data
+### Processed Data
 
 <img src="/img/4.processed-data.png" alt="Alt text" width="800"/>
 
@@ -33,7 +33,8 @@ The preprocessed and embedded data is used to train a Convolutional Neural Netwo
 - Activation Function: ReLU (Rectified Linear Unit) is used for non-linear transformation, and - Sigmoid is used in the final output layer for binary classification.
 - Optimizer: Adam optimizer is used to minimize the loss function.
 - Loss Function: Binary Crossentropy is chosen as the loss function because this is a binary classification problem.
-  
+
+### Configuration Model
 <img src="/img/5.conf-model.png" alt="Alt text" width="800"/>
 
 
@@ -41,9 +42,9 @@ The preprocessed and embedded data is used to train a Convolutional Neural Netwo
 The model is evaluated on the test set, achieving an accuracy of 79% and a loss of 0.58. The model's prediction on a sample data results in a value of 0.99406624, indicating a strong positive sentiment.
 <img src="/img/6.model-acc.png" alt="Alt text" width="800"/> <img src="/img/7.model-loss.png" alt="Alt text" width="800"/>
 
-predicted result
+### Predicted Result
 
- <img src="/img/1.predict.png" alt="Alt text" width="800"/>
+<img src="/img/1.dataset.png" alt="Alt text" width="800"/>
 
 ##  Deployment
 The trained model is converted to TensorFlow Lite format for deployment on Android devices. This allows for on-device sentiment analysis, enabling users to quickly assess the sentiment of reviews directly on their mobile devices.
