@@ -4,10 +4,10 @@ This project focuses on building a Natural Language Processing (NLP) sentiment a
 
 ## Collect Dataset from Google Maps Reviews
 The dataset consists of over 2800 Google Maps reviews related to various tourist destinations in Indonesia. These reviews are labeled with target values: 0 for negative sentiments and 1 for positive sentiments. The dataset can be accessed [here](https://github.com/BangkitCapstoneFIT/ML-findindonesiatourism/blob/main/Book133333.xlsb.csv)
-<img src="/img/1.dataset.png" alt="Alt text" width="800"/>
+<img src="/img/2.info-dataset.png" alt="Alt text" width="800"/>
 
 with detail info dataset
-<img src="/img/1.info-dataset.png" alt="Alt text" width="800"/>
+<img src="/img/3.info-dataset(3).png" alt="Alt text" width="800"/>
 
 ## Data Pre-Processing
 Before training the model, the text data undergoes several preprocessing steps:
